@@ -16,11 +16,6 @@ public class Dollar
     return new Dollar(this.amount * multiplier);
   }
 
-  public int getAmount()
-  {
-    return amount;
-  }
-
   @Override
   public boolean equals(Object o)
   {
